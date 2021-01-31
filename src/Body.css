@@ -1,0 +1,111 @@
+.body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  /* align-items: center; */
+  transition: 0.9s;
+}
+
+.body__content {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  color: rgb(0, 21, 20);
+  margin-top: 20px;
+}
+
+.body__heading {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  font-weight: 200;
+  margin-top: 10px;
+  font-size: 30px;
+  color: #001514;
+  height: fit-content;
+}
+
+.body__heading span {
+  font-weight: 800;
+}
+
+.body__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.body__qrContainer {
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.body__input_bottom {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 50px;
+}
+
+.inputBottomItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputBottomItem > p {
+  margin-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: smaller;
+}
+
+.body__input .inputBottomButton {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 5px;
+  background: #000;
+  color: #fff;
+  transition: 0.2s;
+  cursor: pointer;
+  border: 0.1px solid black;
+}
+
+.body__input .inputBottomButton:hover {
+  background: transparent;
+  border: 0.1px solid black;
+  color: black;
+}
+
+.body__input > form > input {
+  margin-top: 20px;
+  width: 280px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  outline-width: 0;
+}
+
+.body__input > form > input:focus,
+.body__input > form > input:hover {
+  border: 1px solid gray;
+}
+
+.body__input > p {
+  margin: 10px;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+@media only screen and (max-width: 450px) {
+  .body__heading {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}

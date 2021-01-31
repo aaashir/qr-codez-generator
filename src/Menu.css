@@ -1,0 +1,62 @@
+.popup-overlay {
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.popup-content {
+  display: flex;
+  width: fit-content;
+  background-color: transparent;
+  justify-content: center;
+  border: none;
+  text-align: center;
+}
+
+.menu {
+  background: transparent;
+  color: white;
+  height: fit-content;
+  width: fit-content;
+}
+
+.menu > h2 {
+  font-weight: 600;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.menu > h2:hover {
+  background: transparent;
+}
+
+.menu > h4 {
+  height: 60px;
+  font-weight: 100;
+}
+
+.menu__content > p {
+  padding: 5px;
+  color: #fff;
+  margin: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu__content > p:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+a {
+  text-decoration: none;
+  outline-width: 0;
+  color: inherit;
+}
+
+.appVersion {
+  font-size: small;
+  font-weight: 100;
+}
