@@ -16,3 +16,8 @@
 .footer__content > p {
   font-size: small;
 }
+
+.footer__link > a:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}

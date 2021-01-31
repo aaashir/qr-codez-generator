@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR CODEZ</title>
+  </head>
+  <body>
+    <div class="offline__container">
+        <!-- <img src="./logo512.png" alt="logo"> -->
+        <p class="heading">QR CODEZ</p>
+      <p>No internet connection available.</p>
+    </div>
+  </body>
+
+  <style type="text/css">
+    * {
+      margin: 0;
+    }
+    .offline__container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: center;
+      align-items: Center;
+      background-color: #f5f5f5;
+      font-family: sans-serif;
+    }
+
+    .offline__container > .heading {
+        font-size: 54px;
+        background: none;
+        box-shadow: none;
+        font-weight: 600;
+    }
+
+    .offline__container > p {
+        margin-top: 20px;
+        font-size: larger;
+        padding: 5px 10px 5px 10px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        background-color: #F1F1F1;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    }
+  </style>
+</html>
