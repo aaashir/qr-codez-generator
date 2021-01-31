@@ -16,7 +16,7 @@ function Menu({ appVersion }) {
         </p>
 
         <p>
-          <a href="#">Github</a>
+          <a href="https://github.com/aaashir/qr-codez-generator">Github</a>
         </p>
       </div>
       <p className="appVersion">v{appVersion}</p>
