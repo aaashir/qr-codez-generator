@@ -1,4 +1,4 @@
-![alt text](https://qr-codez.web.app/logo512.png)
+![alt text](https://qr-codez.web.app/logo192.png)
 
 # QR CODEZ
 
