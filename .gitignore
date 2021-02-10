@@ -25,9 +25,9 @@ yarn-error.log*
 qr-codez-icon.ai
 
 # firebase
-/.firebase
-firebase.json
-.firebaserc
+.firebase
+/src/firebase.json
+/src/.firebaserc
 
 # netlify
-/.netlify
+.netlify
