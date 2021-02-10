@@ -8,10 +8,12 @@ function Menu({ appVersion }) {
       <h4>click anywhere to go back</h4>
       <div className="menu__content">
         <p>
+          {/* eslint-disable-next-line */}
           <a href="#">API</a>
         </p>
 
         <p>
+          {/* eslint-disable-next-line */}
           <a href="#">Usage</a>
         </p>
 
