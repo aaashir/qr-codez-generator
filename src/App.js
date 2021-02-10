@@ -6,7 +6,7 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="app">
-      <Header appVersion={`0.0.1`} />
+      <Header appVersion={`0.0.2`} />
       <Body />
       <Footer />
     </div>
